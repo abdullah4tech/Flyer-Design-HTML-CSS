@@ -62,16 +62,17 @@ hr {
   margin-bottom: 20px;
 }
 
-span svg {
+a svg {
   width: 20px;
   height: 20px;
 }
 
-span {
+.social-icons a {
   display: flex;
   padding: 5px;
   border-radius: 5px;
   background-color: white;
+  cursor: pointer;
 }
 
 .content p {
@@ -94,9 +95,6 @@ span {
   margin-top: 30px;
 }
 
-.social-icons span {
-  cursor: pointer;
-}
 
 .day {
   margin: 0;
