@@ -94,6 +94,10 @@ span {
   margin-top: 30px;
 }
 
+.social-icons span {
+  cursor: pointer;
+}
+
 .day {
   margin: 0;
   font-size: 20px;
