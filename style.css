@@ -1,0 +1,125 @@
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(assets/bg.svg);
+  background-size: cover;
+  transition: background-color 0.5s ease-in-out;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+.flyer {
+  padding: 20px;
+  max-height: 900px;
+  max-width: 900px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.content {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+}
+
+.logo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  margin: 0;
+}
+
+.content h1 {
+  font-size: 5em;
+  color: white;
+  margin-bottom: 1px;
+  margin: 0;
+  font-weight:500;
+}
+
+.content h2 {
+  font-size: 3em;
+  color: white;
+  margin: 0;
+  font-weight:400;
+}
+
+hr {
+  border: 1px white solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+span svg {
+  width: 20px;
+  height: 20px;
+}
+
+span {
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.content p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+.image-container img {
+  width: 300px;
+  border: 1px white solid;
+  padding: 10px;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.day {
+  margin: 0;
+  font-size: 20px;
+  margin: 0;
+}
+
+.date {
+  margin: 0;
+  position: absolute;
+  top: 340px;
+  left: 900px;
+}
+
+.month, .day_no {
+  margin: 0;
+  font-size: 32px;
+}
+
+
+
+@media (max-width: 768px) {
+  .flyer {
+      flex-direction: column;
+      text-align: center;
+  }
+  .content, .image-container {
+      width: 100%;
+  }
+}
